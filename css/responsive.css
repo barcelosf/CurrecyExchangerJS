@@ -1,0 +1,38 @@
+@media (min-width: 100px) and (max-width: 600px){
+    header nav a#sobre{
+        display: none;
+    }
+    header nav a:hover{
+        color: darkblue;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        padding: 10px;
+        padding-right: 5px;
+        border-radius: 10px;
+        background-color: tomato;
+    }
+    main button{
+        margin-right: 20px;
+        width: 90px;
+        height: 40px;
+    }
+    main button:hover{
+        width: 135px;
+        height: 60px;
+    }
+    main div#selects{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    main div#selects div.select{
+        margin-bottom: 30px;
+    }
+    main div#selects div.select legend{
+        font-size: 15px;
+    }
+}

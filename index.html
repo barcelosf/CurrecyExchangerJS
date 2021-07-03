@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchanger</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="./icons/logo.png" alt="logo" width="60px" height="50px">
+            <figcaption>Currency Exchanger</figcaption>
+        </figure>
+        <nav>
+            <a href="#sobre" id="sobre">Sobre</a>
+            <a href="#servicos">Conheça nossos serviços</a>
+        </nav>
+    </header>
+
+    <main>
+            <div id="selects">
+                <div class="select">
+                    <legend>Quantidade e Moeda Base</legend>
+                    <select name="moedaBase" id="moedaBase">
+                        <option value="">Selecione</option>
+                    </select>
+                    <input type="number" name="amount" id="amount" placeholder="Informe a quantidade">
+                </div>
+                <div class="select">
+                    <legend>Moeda Destino</legend>
+                    <select name="moedaDestino" id="moedaDestino">
+                        <option value="">Selecione</option>
+                        <option value="USD">Dólar Americano</option>
+                        <option value="BRL">Real Brasileiro</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+                </div>
+            </div>
+            <button onclick="converteMoeda()">Converter</button>
+            <span></span>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

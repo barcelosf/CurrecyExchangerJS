@@ -1,0 +1,61 @@
+body{
+    background-color: orange;
+}
+header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header figure{
+    display: flex;
+    align-items: center;
+}
+header figure figcaption{
+    font-size: 20px;
+    color: darkblue;
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 7px;
+}
+header nav a:hover{
+    color: orange;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+main button{
+    width: 100px;
+    height: 60px;
+    display: block;
+    border-radius: 15px;
+    margin-right: 7px;
+}
+main div#selects{
+    display: flex;
+}
+main div#selects div.select{
+    margin-right: 60px;
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 20px;
+}
+main div#selects div.select legend{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+main div#selects div.select select{
+    border-radius: 5px;
+}
+main div#selects div.select input{
+    width: 100px;
+    border-radius: 10px;
+}
