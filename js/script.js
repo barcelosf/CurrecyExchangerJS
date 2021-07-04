@@ -1,7 +1,7 @@
 const base = document.getElementById('moedaBase')
 const destino = document.getElementById('moedaDestino')
 const input = document.getElementsByTagName('input')[0]
-const valorDisplay = document.getElementsByTagName('span')[0]
+const valorDisplay = document.getElementsByTagName('span')[1]
 
 const urlBase = "https://economia.awesomeapi.com.br/json/all"
 
